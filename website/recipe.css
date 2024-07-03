@@ -1,0 +1,25 @@
+@font-face {
+    font-family: gan;
+    src: url(fonts/ganclm_bold-webfont.ttf);
+}
+
+* {
+    font-family: gan;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 300px;
+    width: auto;
+    border-radius: 3px;
+    display: block;
+}
+
+button {
+    background-color: burlywood;
+}

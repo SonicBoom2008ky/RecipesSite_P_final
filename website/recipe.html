@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recipe</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+
+<body>
+    <iframe src="header.html" style="height:58.88px;width:100%;border:none;"></iframe>
+    <div style="display: flex;">
+        <iframe src="left_menu.html"
+            style="width:115px; display: block; border:none; height: calc(100vh - 68.88px);display: block; margin: 5px;"></iframe>
+        <div style="padding-left: 5px; width: 35%;">
+            <h1 id="titleh1"></h1>
+            <br>
+            <br>
+            <div style="direction: rtl;" >
+                זמן : <span id="time"></span>
+                <br>
+                קושי : <span id="difficulty"></span>
+            </div>
+            <br>
+            <br>
+            <div style="direction: rtl;" id="divIngredients">
+                מרכיבים :
+                <br>
+            </div>
+            <br>
+            <div>
+                <button id="favoriteButton">Add to Favorites</button>
+                <button id="unfavoriteButton">Remove from Favorites</button>            
+            </div>
+        </div>
+        <div style="padding-left: 35%">
+            <div style="direction: rtl;">
+                אופן הכנה :
+            </div> 
+            <br>
+            <div style="direction: rtl;" id="method" >
+            </div>
+            <br>
+            <br>
+            <br>
+            <img id="imgRecipe">
+        </div>
+        <script type="module" src="recipe.js"></script>
+</body>
