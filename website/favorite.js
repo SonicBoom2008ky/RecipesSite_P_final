@@ -30,7 +30,7 @@ function PreviewA(preview) {
     a.href = "recipe.html?recipe=" + preview.Id;
 
     let img = document.createElement("img")
-    img.classList.add("recipeImge");
+    img.classList.add("recipeImage");
     img.src = preview.ImageSource;
     a.appendChild(img);
 
